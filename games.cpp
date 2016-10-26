@@ -8,7 +8,7 @@ games::games(QWidget *parent) :
     ui(new Ui::games)
 {
     ui->setupUi(this);
-
+//holals es es una prueba
     //QString filename = QFileDialog::getOpenFileName(this,tr("choose"),"",tr("Images(*.png *.jpg *.bmp)"));
     QImage img;
     bool val = img.load(rutaimagen);
