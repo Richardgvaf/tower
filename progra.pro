@@ -14,17 +14,24 @@ TEMPLATE = app
 
 SOURCES += main.cpp\
         mainwindow.cpp \
-    ventanajuego.cpp \
     games.cpp \
-    datosespeciales.cpp
+    datosespeciales.cpp \
+    clickablelabel.cpp \
+    torres.cpp \
+    Ogro.cpp \
+    magos.cpp \
+    bombardero.cpp
 
 HEADERS  += mainwindow.h \
-    ventanajuego.h \
     games.h \
-    datosespeciales.h
+    datosespeciales.h \
+    clickablelabel.h \
+    torres.h \
+    Ogro.h \
+    magos.h \
+    bombardero.h
 
 FORMS    += mainwindow.ui \
-    ventanajuego.ui \
     games.ui
 
 RESOURCES += \
