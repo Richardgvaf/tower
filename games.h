@@ -3,6 +3,7 @@
 #define rutaimagen "C:/Users/estadm.B-71734/Documents/progra/imgs/background.png"
 #define fondo2 "C:/Users/estadm.B-71734/Documents/progra/imgs/fondo2.png"
 #define fondo3 "C:/Users/estadm.B-71734/Documents/progra/imgs/mago.png"
+#define fondo4 "C:/Users/estadm.B-71734/Documents/progra/imgs/artilleros.png"
 #include <QMainWindow>
 #include <QFileDialog>
 #include <QLabel>
@@ -61,6 +62,8 @@ private slots:
 
 
     void on_btnMago_clicked();
+
+    void on_btnArtillero_clicked();
 
 private:
     Ui::games *ui;

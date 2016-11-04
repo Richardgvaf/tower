@@ -15,6 +15,7 @@ public:
     static Ogro nogro[20];
     static int oro;
     static QString user;
+    //hola
 };
 
 #endif // DATOSESPECIALES_H

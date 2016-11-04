@@ -284,3 +284,9 @@ void games::on_btnMago_clicked()
     DatosEspeciales::selecTorre = 2;
     actualizarBotones(fondo3);
 }
+
+void games::on_btnArtillero_clicked()
+{
+    DatosEspeciales::selecTorre = 3;
+    actualizarBotones(fondo4);
+}
